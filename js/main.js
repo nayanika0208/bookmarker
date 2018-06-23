@@ -90,7 +90,7 @@ function fetchbookmarks(){
 	   	bookmark_result.innerHTML +=`<div class="well">
 	   	                              <h3>  ${name}
 	   	                              <a class="btn btn-default" target="_blank" href="${url}">VISIT </a>
-	   	                              <a onclick='deletebookmark(${url})' class="btn btn-danger" href="#" >DELETE </a>
+	   	                              <a onclick='deletebookmark("${url}")' class="btn btn-danger" href="#" >DELETE </a>
 	   	                              </h3> 
 	   	                              </div>`
 	   }
